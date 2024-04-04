@@ -1,6 +1,6 @@
 ## Description
 
-This template is the same as the [tf-ecs-fargate-lb-service](../../tf-ecs-fargate-lb-service/) but adds infrastructure to enable CI/CD using AWS CodePipeline.  The template outputs the following resources:
+This template  is the same as the [tf-ecs-fargate-lb-service](../../tf-ecs-fargate-lb-service/) but adds infrastructure to enable CI/CD using AWS CodePipeline.  The template outputs the following resources:
 
 - Private ECR repository
 - CodeBuild Project
