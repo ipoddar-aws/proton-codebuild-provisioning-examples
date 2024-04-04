@@ -9,7 +9,7 @@ resource "aws_ecr_repository" "main" {
 }
 
 resource "aws_iam_role" "github_actions" {
-  name               = "${var.proton_service}-github-action-${local.github_org}-${local.github_repo}"
+  name               = "${var.proton_service}-gha-${local.github_org}-${local.github_repo}"
   assume_role_policy = data.aws_iam_policy_document.github_actions_assume_role.json
 
   inline_policy {
